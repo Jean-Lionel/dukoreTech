@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 100vh;
+}
+
+.recatngle{
+	width: 30%;
+	background: url(img/background.jpeg);
+	background-size: cover;
+	padding: 20px;
+}
+
+form div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.btn_submit{
+	justify-content: flex-end;
+}
